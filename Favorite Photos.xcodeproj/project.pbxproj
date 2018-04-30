@@ -8,23 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		0AE1281520976D1000DD6F4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE1281420976D1000DD6F4C /* AppDelegate.swift */; };
-		0AE1281720976D1000DD6F4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE1281620976D1000DD6F4C /* ViewController.swift */; };
 		0AE1281A20976D1000DD6F4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AE1281820976D1000DD6F4C /* Main.storyboard */; };
 		0AE1281C20976D1100DD6F4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AE1281B20976D1100DD6F4C /* Assets.xcassets */; };
 		0AE1281F20976D1100DD6F4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AE1281D20976D1100DD6F4C /* LaunchScreen.storyboard */; };
 		0AE1282720976E7100DD6F4C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0AE1282620976E7100DD6F4C /* GoogleService-Info.plist */; };
+		0AE128292097717F00DD6F4C /* MyFavoritePhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE128282097717F00DD6F4C /* MyFavoritePhotoViewController.swift */; };
+		0AE1282B2097719200DD6F4C /* MyPhotoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE1282A2097719200DD6F4C /* MyPhotoListViewController.swift */; };
 		B62D1457853C708DEFC1647C /* Pods_Favorite_Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56F362D80372F024DF330665 /* Pods_Favorite_Photos.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0AE1281120976D1000DD6F4C /* Favorite Photos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Favorite Photos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AE1281420976D1000DD6F4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0AE1281620976D1000DD6F4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0AE1281920976D1000DD6F4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0AE1281B20976D1100DD6F4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0AE1281E20976D1100DD6F4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0AE1282020976D1100DD6F4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0AE1282620976E7100DD6F4C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0AE128282097717F00DD6F4C /* MyFavoritePhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFavoritePhotoViewController.swift; sourceTree = "<group>"; };
+		0AE1282A2097719200DD6F4C /* MyPhotoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPhotoListViewController.swift; sourceTree = "<group>"; };
 		56F362D80372F024DF330665 /* Pods_Favorite_Photos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Favorite_Photos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E124DD8D0D03D66832E9F4C3 /* Pods-Favorite Photos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Favorite Photos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Favorite Photos/Pods-Favorite Photos.debug.xcconfig"; sourceTree = "<group>"; };
 		E993E1BFE7A841960FCDFAF9 /* Pods-Favorite Photos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Favorite Photos.release.xcconfig"; path = "Pods/Target Support Files/Pods-Favorite Photos/Pods-Favorite Photos.release.xcconfig"; sourceTree = "<group>"; };
@@ -65,11 +67,12 @@
 			children = (
 				0AE1282620976E7100DD6F4C /* GoogleService-Info.plist */,
 				0AE1281420976D1000DD6F4C /* AppDelegate.swift */,
-				0AE1281620976D1000DD6F4C /* ViewController.swift */,
 				0AE1281820976D1000DD6F4C /* Main.storyboard */,
 				0AE1281B20976D1100DD6F4C /* Assets.xcassets */,
 				0AE1281D20976D1100DD6F4C /* LaunchScreen.storyboard */,
 				0AE1282020976D1100DD6F4C /* Info.plist */,
+				0AE128282097717F00DD6F4C /* MyFavoritePhotoViewController.swift */,
+				0AE1282A2097719200DD6F4C /* MyPhotoListViewController.swift */,
 			);
 			path = "Favorite Photos";
 			sourceTree = "<group>";
@@ -222,8 +225,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AE1281720976D1000DD6F4C /* ViewController.swift in Sources */,
 				0AE1281520976D1000DD6F4C /* AppDelegate.swift in Sources */,
+				0AE1282B2097719200DD6F4C /* MyPhotoListViewController.swift in Sources */,
+				0AE128292097717F00DD6F4C /* MyFavoritePhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,7 +374,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Favorite Photos/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.rosehulman.neessc.Favorite-Photos";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -385,7 +392,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Favorite Photos/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.rosehulman.neessc.Favorite-Photos";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
